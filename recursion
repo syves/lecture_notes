@@ -1,0 +1,9 @@
+def how_many_licks(pop_candy, num_licks = 0)
+	if pop_candy == 0
+		num_licks
+	else
+		how_many_licks(pop_candy - 1, num_licks + 5)
+	end
+end
+
+p "It takes #{how_many_licks(30)} licks to get to the center!"

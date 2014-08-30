@@ -52,6 +52,8 @@ end
 #NATURE::GRAVITY ---WHAT IS THIS?
 Nature.new
 
+#where did I commit to? how to push to remote branch on github?
+
 
 
 
